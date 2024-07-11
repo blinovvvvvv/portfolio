@@ -12,12 +12,10 @@ const config: Config = {
 				black: '#060606',
 				gray: '#929292',
 				green: '#9AFF9A',
+				'dark-gray': '#282828',
 			},
 			maxWidth: {
 				container: '1320px',
-			},
-			backgroundColor: {
-				metal: 'linear-gradient(169deg, #fff 0%, #282828 100%);',
 			},
 		},
 	},
