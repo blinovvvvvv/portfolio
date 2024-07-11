@@ -5,9 +5,3 @@
 body {
 	@apply bg-black text-white;
 }
-
-@layer utilities {
-	.text-balance {
-		text-wrap: balance;
-	}
-}
