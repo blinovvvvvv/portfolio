@@ -7,7 +7,16 @@ const config: Config = {
 		'./app/**/*.{js,ts,jsx,tsx,mdx}',
 	],
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				black: '#060606',
+				gray: '#929292',
+				green: '#9AFF9A',
+			},
+			backgroundColor: {
+				metal: 'linear-gradient(169deg, #fff 0%, #282828 100%);',
+			},
+		},
 	},
 	plugins: [],
 }
