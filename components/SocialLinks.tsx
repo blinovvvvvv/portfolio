@@ -4,7 +4,7 @@ import LinkedInIcon from './icons/LinkedIn'
 
 export default function SocialLinks() {
 	return (
-		<ul className='flex-grow flex justify-center gap-[45px]'>
+		<ul className='flex-grow flex justify-center gap-[30px] sm:gap-[45px]'>
 			<li>
 				<a
 					className='group flex items-center gap-2 transition-colors hover:text-gray'
